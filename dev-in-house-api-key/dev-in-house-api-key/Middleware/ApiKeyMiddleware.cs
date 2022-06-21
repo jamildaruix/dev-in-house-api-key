@@ -9,6 +9,9 @@
         public ApiKeyMiddleware(RequestDelegate next)
         {
             _next = next;
+
+
+
         }
 
         public async Task InvokeAsync(HttpContext context)
